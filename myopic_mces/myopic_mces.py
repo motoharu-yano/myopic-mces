@@ -12,9 +12,9 @@ import networkx as nx
 from typing import Tuple, List
 from joblib import Parallel, delayed
 
-from src.myopic_mces.graph import construct_graph
-from src.myopic_mces.MCES_ILP import MCES_ILP
-from src.myopic_mces.filter_MCES import apply_filter
+from myopic_mces.graph import construct_graph
+from myopic_mces.MCES_ILP import MCES_ILP
+from myopic_mces.filter_MCES import apply_filter
 
 
 # noinspection PyPep8Naming
